@@ -43,7 +43,7 @@ module "azure_aks" {
       cluster_auto_scaling            = true
       cluster_auto_scaling_min_count  = 3
       cluster_auto_scaling_max_count  = 6
-      orchestrator_version            = "1.16.13"
+      orchestrator_version            = "1.17.7"
     }
   }
 

@@ -1,6 +1,6 @@
 resource "azurerm_kubernetes_cluster" "modaks" {
   lifecycle {
-    prevent_destroy = true
+    #    prevent_destroy = true
     ignore_changes = [
       default_node_pool[0].node_count
     ]
